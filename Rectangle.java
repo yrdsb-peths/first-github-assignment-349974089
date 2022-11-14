@@ -14,23 +14,16 @@ public class Rectangle
         return width * height;
     }
     
-    // This is a getter method to get the height field.
     public int getHeight()
     {
         return height;
     }
     
-    // This is a getter method to get the width field.
     public int getWidth()
     {
         return width;
     }
     
-    /**
-     * This is the toString method. It returns a String
-     * representation of the object. See what happens
-     * if you print out the object without a toString.
-     */
     public String toString()
     {
         return "Rectangle with width: " + width + " and height: " + height;
